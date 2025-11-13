@@ -13,7 +13,7 @@
     <!-- inicio dados Pessoais -->
     <form id="dadospessoais">
         <fieldset>
-            <legend>Dados Pessoais</legend>
+            <legend>Dados Pessoais:</legend>
             <label for="name">Nome:</label> <br>
             <input type="text" name="name"><br><br>
             <label for="num">Idade:</label><br>
@@ -22,18 +22,75 @@
             <input type="number" name="name"><br><br>
             <label for="endereco">Endereço:</label><br>
             <input type="endereco" name="name"><br><br>
-            <label for="country">Planeta de Origem</label><br>
-            <select name="country" id="country">
+            <label for="planeta">Planeta de Origem</label><br>
+            <select name="planeta" id="planeta">
                 <option>Selecione uma opção</option>
                 <option>Planeta Terra</option>
                 <option>Planeta Namek</option>
                 <option>Planeta Vegeta</option>
                 <option>Outros</option>
             </select><br><br>
-        </fieldset>
+        </fieldset><br>
     </form>
-    <!-- inicio de dados exestras -->
 
+    <!-- inicio de dados exestras -->
+    <form id="dadosextras">
+        <fieldset>
+            <legend>Dados Extras</legend>
+            <label for="dados extra">Raça do Universo 7 Preferida:</label>
+            <select name="dados extra" id="dadosextras">
+                <option>Selecione uma opção </option>
+                <option>Terráqueo </option>
+                <option>Sayajim</option>
+                <option>NameKuseijin </option>
+                <option>Androide </option>
+                <option>Outros </option>
+            </select><br><br>
+            <label for="trabalho ">Trabalho:</label>
+            <input type="radio" name="area1" value="Autonomo">Autonomo
+            <input type="radio" name="area2" value="Empregado CLT">Empregado CLT
+            <input type="radio" name="area3" value="Empresario">Empresario
+            <input type="radio" name="area4" value="Tipo Goku">Tipo Goku
+        </fieldset><br>
+    </form>
+
+    <!-- inicio do açai perfeito -->
+
+    <form id="acaiperfeito">
+        <fieldset>
+            <legend>Seu açai é perfeito de que jeito?</legend>
+            <input type="checkbox" name="area1" value="Puro">Puro
+            <input type="checkbox" name="area2" value="Com Banana">Com Banana
+            <input type="checkbox" name="area3" value="Com Morango">Com Morango
+            <input type="checkbox" name="area4" value="Com Granola">Com Granola
+            <input type="checkbox" name="area4" value="Tem Gosto de Terra">Tem Gosto de Terra
+        </fieldset><br>
+    </form>
+
+    <!-- inicio do tamanho  -->
+
+    <form id="tamanho">
+        <fieldset>
+            <legend>Qual o tamanho perfeito?</legend>
+            <input type="radio" name="area2" value="500ml">500ml
+            <input type="radio" name="area3" value="300ml">300ml
+            <input type="radio" name="area4" value="100ml">100ml
+            <input type="radio" name="area4" value="Casquinha">Casquinha
+            <input type="radio" name="area4" value=" Qual parte do gosto de terra vc nao enmtendeu!!">Qual parte do
+            gosto de terra vc nao enmtendeu!!
+        </fieldset><br>
+    </form>
+
+    <!-- inicio observações -->
+
+    <form id="observacao">
+        <fieldset>
+            <p>Observações:</p>
+            <textarea placeholder="Escreva suas observações... Eu gosto de açai porque.."></textarea>
+        </fieldset><br><br>
+        <button type="submit">Enviar</button>
+        <button type="submit">Limpar</button>
+    </form>
 
 </body>
 
